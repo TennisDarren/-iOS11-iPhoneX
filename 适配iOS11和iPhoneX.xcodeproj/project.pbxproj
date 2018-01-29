@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0649E081FF7B811001C492D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E071FF7B811001C492D /* AppDelegate.m */; };
+		F0649E0B1FF7B811001C492D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E0A1FF7B811001C492D /* ViewController.m */; };
+		F0649E0E1FF7B811001C492D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0649E0C1FF7B811001C492D /* Main.storyboard */; };
+		F0649E101FF7B811001C492D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0649E0F1FF7B811001C492D /* Assets.xcassets */; };
+		F0649E131FF7B811001C492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0649E111FF7B811001C492D /* LaunchScreen.storyboard */; };
+		F0649E161FF7B811001C492D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E151FF7B811001C492D /* main.m */; };
+		F0649E201FF7B811001C492D /* __iOS11_iPhoneXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E1F1FF7B811001C492D /* __iOS11_iPhoneXUITests.m */; };
+		F0F31C97200113A200235816 /* DXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F31C96200113A200235816 /* DXTableViewCell.m */; };
+		F0F31C9A200138E300235816 /* DXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F31C99200138E300235816 /* DXTabBarController.m */; };
+		F495D642DC6206F672FBDA8F /* libPods-适配iOS11和iPhoneXUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52603397DF9488AA49148920 /* libPods-适配iOS11和iPhoneXUITests.a */; };
+		F4AC67FC8E9B27E62EF0FAC8 /* libPods-适配iOS11和iPhoneX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D9F4A3D5E93149F06B2CC7 /* libPods-适配iOS11和iPhoneX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0649E1C1FF7B811001C492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0649DFB1FF7B810001C492D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0649E021FF7B811001C492D;
+			remoteInfo = "适配iOS11和iPhoneX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE34B81DF67DCB0F9E6A314 /* Pods-适配iOS11和iPhoneX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-适配iOS11和iPhoneX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-适配iOS11和iPhoneX/Pods-适配iOS11和iPhoneX.debug.xcconfig"; sourceTree = "<group>"; };
+		52603397DF9488AA49148920 /* libPods-适配iOS11和iPhoneXUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-适配iOS11和iPhoneXUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D9F4A3D5E93149F06B2CC7 /* libPods-适配iOS11和iPhoneX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-适配iOS11和iPhoneX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CAA69A4237C84A2A69A54D /* Pods-适配iOS11和iPhoneXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-适配iOS11和iPhoneXUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-适配iOS11和iPhoneXUITests/Pods-适配iOS11和iPhoneXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0440163B7882AC959CB1B3C /* Pods-适配iOS11和iPhoneXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-适配iOS11和iPhoneXUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-适配iOS11和iPhoneXUITests/Pods-适配iOS11和iPhoneXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F129F8D8DBC1CCB96AF4FC /* Pods-适配iOS11和iPhoneX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-适配iOS11和iPhoneX.release.xcconfig"; path = "Pods/Target Support Files/Pods-适配iOS11和iPhoneX/Pods-适配iOS11和iPhoneX.release.xcconfig"; sourceTree = "<group>"; };
+		F0649E031FF7B811001C492D /* 适配iOS11和iPhoneX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "适配iOS11和iPhoneX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0649E061FF7B811001C492D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0649E071FF7B811001C492D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0649E091FF7B811001C492D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0649E0A1FF7B811001C492D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0649E0D1FF7B811001C492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0649E0F1FF7B811001C492D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0649E121FF7B811001C492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0649E141FF7B811001C492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0649E151FF7B811001C492D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0649E1B1FF7B811001C492D /* 适配iOS11和iPhoneXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "适配iOS11和iPhoneXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0649E1F1FF7B811001C492D /* __iOS11_iPhoneXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __iOS11_iPhoneXUITests.m; sourceTree = "<group>"; };
+		F0649E211FF7B811001C492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F31C94200108F200235816 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F0F31C95200113A200235816 /* DXTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXTableViewCell.h; sourceTree = "<group>"; };
+		F0F31C96200113A200235816 /* DXTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXTableViewCell.m; sourceTree = "<group>"; };
+		F0F31C98200138E300235816 /* DXTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXTabBarController.h; sourceTree = "<group>"; };
+		F0F31C99200138E300235816 /* DXTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0649E001FF7B811001C492D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AC67FC8E9B27E62EF0FAC8 /* libPods-适配iOS11和iPhoneX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0649E181FF7B811001C492D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F495D642DC6206F672FBDA8F /* libPods-适配iOS11和iPhoneXUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256CFF366A63E970D6CCB95E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE34B81DF67DCB0F9E6A314 /* Pods-适配iOS11和iPhoneX.debug.xcconfig */,
+				E3F129F8D8DBC1CCB96AF4FC /* Pods-适配iOS11和iPhoneX.release.xcconfig */,
+				B0440163B7882AC959CB1B3C /* Pods-适配iOS11和iPhoneXUITests.debug.xcconfig */,
+				92CAA69A4237C84A2A69A54D /* Pods-适配iOS11和iPhoneXUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBA6F0AF05D57E7997D99391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76D9F4A3D5E93149F06B2CC7 /* libPods-适配iOS11和iPhoneX.a */,
+				52603397DF9488AA49148920 /* libPods-适配iOS11和iPhoneXUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0649DFA1FF7B810001C492D = {
+			isa = PBXGroup;
+			children = (
+				F0649E051FF7B811001C492D /* 适配iOS11和iPhoneX */,
+				F0649E1E1FF7B811001C492D /* 适配iOS11和iPhoneXUITests */,
+				F0649E041FF7B811001C492D /* Products */,
+				256CFF366A63E970D6CCB95E /* Pods */,
+				BBA6F0AF05D57E7997D99391 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0649E041FF7B811001C492D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0649E031FF7B811001C492D /* 适配iOS11和iPhoneX.app */,
+				F0649E1B1FF7B811001C492D /* 适配iOS11和iPhoneXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0649E051FF7B811001C492D /* 适配iOS11和iPhoneX */ = {
+			isa = PBXGroup;
+			children = (
+				F0649E061FF7B811001C492D /* AppDelegate.h */,
+				F0649E071FF7B811001C492D /* AppDelegate.m */,
+				F0649E091FF7B811001C492D /* ViewController.h */,
+				F0649E0A1FF7B811001C492D /* ViewController.m */,
+				F0F31C98200138E300235816 /* DXTabBarController.h */,
+				F0F31C99200138E300235816 /* DXTabBarController.m */,
+				F0F31C95200113A200235816 /* DXTableViewCell.h */,
+				F0F31C96200113A200235816 /* DXTableViewCell.m */,
+				F0649E0C1FF7B811001C492D /* Main.storyboard */,
+				F0649E0F1FF7B811001C492D /* Assets.xcassets */,
+				F0649E111FF7B811001C492D /* LaunchScreen.storyboard */,
+				F0649E141FF7B811001C492D /* Info.plist */,
+				F0649E151FF7B811001C492D /* main.m */,
+				F0F31C94200108F200235816 /* PrefixHeader.pch */,
+			);
+			path = "适配iOS11和iPhoneX";
+			sourceTree = "<group>";
+		};
+		F0649E1E1FF7B811001C492D /* 适配iOS11和iPhoneXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0649E1F1FF7B811001C492D /* __iOS11_iPhoneXUITests.m */,
+				F0649E211FF7B811001C492D /* Info.plist */,
+			);
+			path = "适配iOS11和iPhoneXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0649E021FF7B811001C492D /* 适配iOS11和iPhoneX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0649E241FF7B811001C492D /* Build configuration list for PBXNativeTarget "适配iOS11和iPhoneX" */;
+			buildPhases = (
+				55E5CE3DD19C4D2CF3FC5A9C /* [CP] Check Pods Manifest.lock */,
+				F0649DFF1FF7B811001C492D /* Sources */,
+				F0649E001FF7B811001C492D /* Frameworks */,
+				F0649E011FF7B811001C492D /* Resources */,
+				3EE8682331A27655585BADC8 /* [CP] Embed Pods Frameworks */,
+				922DAC2AE74021B22A5D7B4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "适配iOS11和iPhoneX";
+			productName = "适配iOS11和iPhoneX";
+			productReference = F0649E031FF7B811001C492D /* 适配iOS11和iPhoneX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0649E1A1FF7B811001C492D /* 适配iOS11和iPhoneXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0649E271FF7B811001C492D /* Build configuration list for PBXNativeTarget "适配iOS11和iPhoneXUITests" */;
+			buildPhases = (
+				E51B32977F61BD7A1AA4B578 /* [CP] Check Pods Manifest.lock */,
+				F0649E171FF7B811001C492D /* Sources */,
+				F0649E181FF7B811001C492D /* Frameworks */,
+				F0649E191FF7B811001C492D /* Resources */,
+				E23D2DA2A526EB037F00CDC4 /* [CP] Embed Pods Frameworks */,
+				972A6EE1F9011B6C568D9EB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0649E1D1FF7B811001C492D /* PBXTargetDependency */,
+			);
+			name = "适配iOS11和iPhoneXUITests";
+			productName = "适配iOS11和iPhoneXUITests";
+			productReference = F0649E1B1FF7B811001C492D /* 适配iOS11和iPhoneXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0649DFB1FF7B810001C492D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Darren  xu";
+				TargetAttributes = {
+					F0649E021FF7B811001C492D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F0649E1A1FF7B811001C492D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0649E021FF7B811001C492D;
+					};
+				};
+			};
+			buildConfigurationList = F0649DFE1FF7B810001C492D /* Build configuration list for PBXProject "适配iOS11和iPhoneX" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0649DFA1FF7B810001C492D;
+			productRefGroup = F0649E041FF7B811001C492D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0649E021FF7B811001C492D /* 适配iOS11和iPhoneX */,
+				F0649E1A1FF7B811001C492D /* 适配iOS11和iPhoneXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0649E011FF7B811001C492D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0649E131FF7B811001C492D /* LaunchScreen.storyboard in Resources */,
+				F0649E101FF7B811001C492D /* Assets.xcassets in Resources */,
+				F0649E0E1FF7B811001C492D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0649E191FF7B811001C492D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EE8682331A27655585BADC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-适配iOS11和iPhoneX/Pods-适配iOS11和iPhoneX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E5CE3DD19C4D2CF3FC5A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-适配iOS11和iPhoneX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922DAC2AE74021B22A5D7B4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-适配iOS11和iPhoneX/Pods-适配iOS11和iPhoneX-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-适配iOS11和iPhoneX/Pods-适配iOS11和iPhoneX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972A6EE1F9011B6C568D9EB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-适配iOS11和iPhoneXUITests/Pods-适配iOS11和iPhoneXUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23D2DA2A526EB037F00CDC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-适配iOS11和iPhoneXUITests/Pods-适配iOS11和iPhoneXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51B32977F61BD7A1AA4B578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-适配iOS11和iPhoneXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0649DFF1FF7B811001C492D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0649E0B1FF7B811001C492D /* ViewController.m in Sources */,
+				F0649E161FF7B811001C492D /* main.m in Sources */,
+				F0649E081FF7B811001C492D /* AppDelegate.m in Sources */,
+				F0F31C97200113A200235816 /* DXTableViewCell.m in Sources */,
+				F0F31C9A200138E300235816 /* DXTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0649E171FF7B811001C492D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0649E201FF7B811001C492D /* __iOS11_iPhoneXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0649E1D1FF7B811001C492D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0649E021FF7B811001C492D /* 适配iOS11和iPhoneX */;
+			targetProxy = F0649E1C1FF7B811001C492D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0649E0C1FF7B811001C492D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0649E0D1FF7B811001C492D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0649E111FF7B811001C492D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0649E121FF7B811001C492D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0649E221FF7B811001C492D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0649E231FF7B811001C492D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0649E251FF7B811001C492D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE34B81DF67DCB0F9E6A314 /* Pods-适配iOS11和iPhoneX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92CJ24C39M;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/适配iOS11和iPhoneX/PrefixHeader.pch";
+				INFOPLIST_FILE = "适配iOS11和iPhoneX/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuit.--iOS11-iPhoneX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0649E261FF7B811001C492D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F129F8D8DBC1CCB96AF4FC /* Pods-适配iOS11和iPhoneX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92CJ24C39M;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/适配iOS11和iPhoneX/PrefixHeader.pch";
+				INFOPLIST_FILE = "适配iOS11和iPhoneX/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuit.--iOS11-iPhoneX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0649E281FF7B811001C492D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0440163B7882AC959CB1B3C /* Pods-适配iOS11和iPhoneXUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92CJ24C39M;
+				INFOPLIST_FILE = "适配iOS11和iPhoneXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuit.--iOS11-iPhoneXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "适配iOS11和iPhoneX";
+			};
+			name = Debug;
+		};
+		F0649E291FF7B811001C492D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CAA69A4237C84A2A69A54D /* Pods-适配iOS11和iPhoneXUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92CJ24C39M;
+				INFOPLIST_FILE = "适配iOS11和iPhoneXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuit.--iOS11-iPhoneXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "适配iOS11和iPhoneX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0649DFE1FF7B810001C492D /* Build configuration list for PBXProject "适配iOS11和iPhoneX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0649E221FF7B811001C492D /* Debug */,
+				F0649E231FF7B811001C492D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0649E241FF7B811001C492D /* Build configuration list for PBXNativeTarget "适配iOS11和iPhoneX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0649E251FF7B811001C492D /* Debug */,
+				F0649E261FF7B811001C492D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0649E271FF7B811001C492D /* Build configuration list for PBXNativeTarget "适配iOS11和iPhoneXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0649E281FF7B811001C492D /* Debug */,
+				F0649E291FF7B811001C492D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0649DFB1FF7B810001C492D /* Project object */;
+}
