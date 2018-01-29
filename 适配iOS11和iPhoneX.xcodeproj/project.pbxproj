@@ -14,7 +14,6 @@
 		F0649E131FF7B811001C492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0649E111FF7B811001C492D /* LaunchScreen.storyboard */; };
 		F0649E161FF7B811001C492D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E151FF7B811001C492D /* main.m */; };
 		F0649E201FF7B811001C492D /* __iOS11_iPhoneXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0649E1F1FF7B811001C492D /* __iOS11_iPhoneXUITests.m */; };
-		F0C9B42F201F94C300C61377 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9B42E201F94C300C61377 /* Person.m */; };
 		F0F31C97200113A200235816 /* DXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F31C96200113A200235816 /* DXTableViewCell.m */; };
 		F0F31C9A200138E300235816 /* DXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F31C99200138E300235816 /* DXTabBarController.m */; };
 		F495D642DC6206F672FBDA8F /* libPods-适配iOS11和iPhoneXUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52603397DF9488AA49148920 /* libPods-适配iOS11和iPhoneXUITests.a */; };
@@ -51,8 +50,6 @@
 		F0649E1B1FF7B811001C492D /* 适配iOS11和iPhoneXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "适配iOS11和iPhoneXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0649E1F1FF7B811001C492D /* __iOS11_iPhoneXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __iOS11_iPhoneXUITests.m; sourceTree = "<group>"; };
 		F0649E211FF7B811001C492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0C9B42D201F94C300C61377 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		F0C9B42E201F94C300C61377 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F0F31C94200108F200235816 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F0F31C95200113A200235816 /* DXTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXTableViewCell.h; sourceTree = "<group>"; };
 		F0F31C96200113A200235816 /* DXTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DXTableViewCell.m; sourceTree = "<group>"; };
@@ -137,8 +134,6 @@
 				F0649E141FF7B811001C492D /* Info.plist */,
 				F0649E151FF7B811001C492D /* main.m */,
 				F0F31C94200108F200235816 /* PrefixHeader.pch */,
-				F0C9B42D201F94C300C61377 /* Person.h */,
-				F0C9B42E201F94C300C61377 /* Person.m */,
 			);
 			path = "适配iOS11和iPhoneX";
 			sourceTree = "<group>";
@@ -362,7 +357,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C9B42F201F94C300C61377 /* Person.m in Sources */,
 				F0649E0B1FF7B811001C492D /* ViewController.m in Sources */,
 				F0649E161FF7B811001C492D /* main.m in Sources */,
 				F0649E081FF7B811001C492D /* AppDelegate.m in Sources */,
